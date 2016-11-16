@@ -62,4 +62,8 @@ describe 'roman numerals' do
 		expect(roman_numerals_converter(1000)).to eq "M"
 	end
 
+	it 'expects 3954 to translate to "MMMCMLIV"' do
+		expect(roman_numerals_converter(3954)).to eq "MMMCMLIV"
+	end
+
 end
